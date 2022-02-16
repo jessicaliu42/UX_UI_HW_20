@@ -31,7 +31,7 @@ body{
 }
 
 .cover{
-    /* background-image: url(../asset/photo-1519389950473-47ba0277781c.jpg); */
+    background-image: url(../asset/photo-1507925921958-8a62f3d1a50d.jpg);
     background-color: grey;
     background-size: cover; 
     background-position: center;
@@ -52,10 +52,13 @@ main{
 
 .title{
     background-color: transparent;
+    color: #43D9BD;
 }
 .mainContant{
     text-align: left;
-    padding: 5px 400px 10px 400px;
+    /* padding: 5px 400px 10px 400px; */
+    color:white;
+    max-width: 850px;
 }
 .mainContant ul{
     text-decoration: none;
@@ -68,17 +71,16 @@ main{
 .mainOverview div{
     margin: 0px 40px 0px 0px;
 }*/
-.introRow{
-    margin: 30px 350px 30px 350px !important;
+.containerInside{
+max-width: 850px;
+padding: 35px;
 }
 .section{
     margin: 0px;
     width: 100%;
     padding: 0px !important;
 }
-.introduction{
-    padding: 0px !important;
-}
+
 section h1{
     font-family: 'Knewave', cursive;
     text-align: center;
@@ -101,7 +103,7 @@ section h1{
 }
 
 .contactintro{
-    padding: 0px 350px 30px 350px;
+    /* padding: 0px 350px 30px 350px; */
     display: grid;
     grid-template-columns:1fr 1fr;
     grid-template-rows: 1fr;
