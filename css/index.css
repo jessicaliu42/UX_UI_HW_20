@@ -116,13 +116,13 @@ section h1{
     color: white;
     text-align: center;
 } 
-img{
+section img{
     padding:20px;
 }
 @media screen and (max-width: 600px) {
     .header{
         position: absolute;
-    }
+    } 
     .header nav{
         background-color: #15453C !important;
     }
