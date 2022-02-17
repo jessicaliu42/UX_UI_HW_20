@@ -116,6 +116,9 @@ section h1{
     color: white;
     text-align: center;
 } 
+img{
+    padding:20px;
+}
 @media screen and (max-width: 600px) {
     .header{
         position: absolute;
